@@ -12,7 +12,9 @@ This repository contains the materials for the MIMB cell painting tutorial, incl
   - `INVITRODBv3_20181017.xls`: Excel file with invitro database version 3 data.
 
 ### Cell_Profiles Directory
-- **Data/Cell_Profiles/**: Directory containing cell profile data files. 
+- **Data/Cell_Profiles/**: Directory containing cell profile data files.
+  - `part_1.csv` -> `part_63.csv`
+        
 
 ### Output Directory
 - **Data/Output/**: Directory where the output of the Jupyter Notebooks will be stored. This directory is initially non-existing and will be created and generated after running the 1st notebook.
