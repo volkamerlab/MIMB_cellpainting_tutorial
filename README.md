@@ -15,7 +15,7 @@ This repository contains the materials for the MIMB cell painting tutorial, incl
 - **Cell_Profiles/**: Directory containing cell profile data files. 
 
 ### Output Directory
-- **Output/**: Directory where the output of the Jupyter Notebooks will be stored. This directory is initially non-existing and will be created and generated after running the 1t notebooks.
+- **Output/**: Directory where the output of the Jupyter Notebooks will be stored. This directory is initially non-existing and will be created and generated after running the 1st notebook.
 
 ### Notebooks Directory
 - **Notebooks/**: Contains Jupyter Notebooks for different parts of the tutorial:
@@ -25,7 +25,8 @@ This repository contains the materials for the MIMB cell painting tutorial, incl
 
 ### Other Files
 
-- **README.md**: This file, providing an overview of the repository structure and contents.
+- **README.md**: This file, provides an overview of the repository structure and contents.
+- **requirements.txt** : to add 
 
 ## Getting Started
 
