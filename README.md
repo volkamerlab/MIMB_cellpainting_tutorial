@@ -28,6 +28,7 @@ This repository contains the materials for the MIMB cell painting tutorial, incl
 ### Other Files
 
 - **README.md**: This file, provides an overview of the repository structure and contents.
+- **Licence**: to do 
 - **requirements.txt** : to add 
 
 ## Getting Started
