@@ -28,8 +28,8 @@ This repository contains the materials for the MIMB cell painting tutorial, incl
 ### Other Files
 
 - **README.md**: This file, provides an overview of the repository structure and contents.
-- **Licence**: to do 
-- **requirements.txt** : to add 
+- **LICENSE**: License information 
+- **requirements.txt** : File listing Python dependencies.
 
 ## Getting Started
 
@@ -41,8 +41,16 @@ To run the Jupyter Notebooks locally on your machine, follow these steps:
    cd MIMB_cellpainting_tutorial
 
 ## Setting Up the Environment
+For setting up the environment install conda :
 
-To ensure compatibility and reproducibility, it's recommended to use a Conda environment. You can create and activate the environment with the following commands:
+1. **Install CONDA**
+To install and use Conda, follow the instructions on the [official Conda installation page](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html).
+
+2. **Install pip**
+To install pip follow the instructions on the [official pip installation page](https://pip.pypa.io/en/stable/installation/).
+
+3. **Setting Up the Environment**
+You can now create and activate the environment with the following commands:
 
 ```sh
 conda create --name mimb_cellpainting python=3.8
