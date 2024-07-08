@@ -6,24 +6,30 @@ This repository contains the materials for the MIMB cell painting tutorial, incl
 
 ### Data Directory
 - **Data/Annotations/**: Contains various annotation files including:
-  - `blocklist_features.txt`: Text file listing features to be blocked.
-  - `chemical_annotations.csv`: CSV file containing chemical annotations.
-  - `cytotox_invitrodb_v4_1_SEPT2023.xlsx`: Excel file with cytotoxicity data.
-  - `INVITRODBv3_20181017.xls`: Excel file with invitro database version 3 data.
+  - `blocklist_features.txt`: Text file listing features to be blocked, downloaded [here](https://figshare.com/articles/dataset/Blacklist_Features_-_Cell_Profiler/10255811/3)
+  - `chemical_annotations.csv`: CSV file containing chemical annotations, dowloaded [here](http://gigadb.org/dataset/100351).
+  - `toxcast_data.csv`: The dataset used for estrogen receptor activity prediction, downloaded from [Moleculenet](https://moleculenet.org/datasets-1).
+  - `ER_activity_luc_bg1.csv`: The activity dataset obtained after processing `toxcast_data.csv`, can be generated when running `Part3-Machine_Learning.ipynb`
+
 
 ### Cell_Profiles Directory
 - **Data/Cell_Profiles/**: Directory containing cell profile data files.
-  - `part_1.csv` -> `part_63.csv`
+  - `part_1.csv` -> `part_63.csv` queried from [GigaDB](http://gigadb.org/dataset/100351)
         
 
 ### Output Directory
-- **Data/Output/**: Directory where the output of the Jupyter Notebooks will be stored. This directory is initially non-existing and will be created and generated after running the 1st notebook.
+- **Data/Output/**: Directory where the output of the Jupyter Notebooks will be stored. This directory is initially non-existing and will be created and generated after running the 1st notebook, it will contain:
+  - `output_notebook_1.pkl`: Output of _Part1-Data_Processing.ipynb_ 
+  - `output_notebook_2.pkl`: Output of _Part2-Similarity_Analysis.ipynb_ output
+  - `ER_activity_luc_bg1.csv` : Output of _ToxCast_Tox21_ERa.ipynb_
+
 
 ### Notebooks Directory
 - **Notebooks/**: Contains Jupyter Notebooks for different parts of the tutorial:
   - `Part1-Data_Processing.ipynb`: Notebook for data processing.
   - `Part2-Similarity_Analysis.ipynb`: Notebook for similarity analysis.
   - `Part3-Machine_Learning.ipynb`: Notebook for machine learning tasks.
+  - `ToxCast_Tox21_ERa.ipynb`: Notebook to prepare Toxcast data
 
 ### Other Files
 
