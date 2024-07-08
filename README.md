@@ -19,9 +19,9 @@ This repository contains the materials for the MIMB cell painting tutorial, incl
 
 ### Output Directory
 - **Data/Output/**: Directory where the output of the Jupyter Notebooks will be stored. This directory is initially non-existing and will be created and generated after running the 1st notebook, it will contain:
-  - `output_notebook_1.pkl`:Part1-Data_Processing.ipynb output
-  - `output_notebook_2.pkl`: Part2-Similarity_Analysis.ipynb output
-  - `ER_activity_luc_bg1.csv` : ToxCast_Tox21_ERa.ipynb output 
+  - `output_notebook_1.pkl`:_Part1-Data_Processing.ipynb's_ output
+  - `output_notebook_2.pkl`: _Part2-Similarity_Analysis.ipynb's_ output
+  - `ER_activity_luc_bg1.csv` : _ToxCast_Tox21_ERa.ipynb's_ output 
 
 
 ### Notebooks Directory
@@ -29,7 +29,7 @@ This repository contains the materials for the MIMB cell painting tutorial, incl
   - `Part1-Data_Processing.ipynb`: Notebook for data processing.
   - `Part2-Similarity_Analysis.ipynb`: Notebook for similarity analysis.
   - `Part3-Machine_Learning.ipynb`: Notebook for machine learning tasks.
-  - `ToxCast_Tox21_ERa.ipynb` : Notebook to prepare Toxcast data
+  - `ToxCast_Tox21_ERa.ipynb`: Notebook to prepare Toxcast data
 
 ### Other Files
 
