@@ -50,15 +50,14 @@ To run the Jupyter Notebooks locally on your machine, follow these steps:
 For setting up the environment install conda :
 
 1. **Install CONDA**
-To install and use Conda, follow the instructions on the [official Conda installation page](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html).
+To install and use Conda; miniconda installer, follow the instructions on the [official Conda installation page](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) for your operating system.
 
 2. **Install pip**
 To install pip follow the instructions on the [official pip installation page](https://pip.pypa.io/en/stable/installation/).
 
-3. **Setting Up the Environment**
+2. **Setting Up the Environment**
 You can now create and activate the environment with the following commands:
 
 ```sh
-conda create --name mimb_cellpainting python=3.8
+conda env create -f mimb_cellpainting.yml
 conda activate mimb_cellpainting
-pip install -r requirements.txt
