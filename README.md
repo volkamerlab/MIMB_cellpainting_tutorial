@@ -20,7 +20,7 @@ This repository contains the materials for the MIMB cell painting tutorial, incl
 ### Output Directory
 - **Data/Output/**: Directory where the output of the Jupyter Notebooks will be stored. This directory is initially non-existing and will be created and generated after running the 1st notebook, it will contain:
   - `output_notebook_1.pkl`: Output of _Part1-Data_Processing.ipynb_ 
-  - `output_notebook_2.pkl`: Output of _Part2-Similarity_Analysis.ipynb_ output
+  - `output_notebook_2.pkl`: Output of _Part2-Similarity_Analysis.ipynb_ 
   - `ER_activity_luc_bg1.csv` : Output of _ToxCast_Tox21_ERa.ipynb_
 
 
@@ -29,13 +29,13 @@ This repository contains the materials for the MIMB cell painting tutorial, incl
   - `Part1-Data_Processing.ipynb`: Notebook for data processing.
   - `Part2-Similarity_Analysis.ipynb`: Notebook for similarity analysis.
   - `Part3-Machine_Learning.ipynb`: Notebook for machine learning tasks.
-  - `ToxCast_Tox21_ERa.ipynb`: Notebook to prepare Toxcast data
+  - `ToxCast_Tox21_ERa.ipynb`: Notebook to prepare Toxcast data.
 
 ### Other Files
 
 - **README.md**: This file, provides an overview of the repository structure and contents.
 - **LICENSE**: License information 
-- **mimb_cellpainting.yml** : File listing Python dependencies.
+- **mimb_cellpainting.yml** : File listing environment dependencies.
 
 ## Getting Started
 
@@ -57,15 +57,13 @@ To install pip follow the instructions on the [official pip installation page](h
 
 3. **Setting Up the Environment**
 You can now create and activate the environment with the following commands:
-
 ```sh
 conda env create -f mimb_cellpainting.yml
 conda activate mimb_cellpainting
-
 ```
-2. **Lunch Jupyter lab**:
-Start JupyterLab to work with the notebooks
-Once JupyterLab is running, you can navigate to the Notebooks directory and open the relevant notebooks to start working with the tutorial.
+## Getting started : Lunch Jupyter lab :
+Start JupyterLab to work with the notebooks.
+
 ```sh
 jupyter-lab
 ```
@@ -73,7 +71,9 @@ or
 ```sh
 jupyter-notebook
 ```
-You can open and run, specific notebooks from your terminal as follows; more can be found on the official [Jupyter page](https://docs.jupyter.org/en/latest/running.html).
+You can also open and run, specific notebooks from your terminal as follows; more can be found on the official [Jupyter page](https://docs.jupyter.org/en/latest/running.html).
 ```sh
 jupyter-notebook ToxCast_Tox21_ERa.ipynb
 jupyter execute ToxCast_Tox21_ERa.ipynb
+```
+Once JupyterLab is running, you can navigate to the Notebooks directory and open the relevant notebooks to start working with the tutorial.
