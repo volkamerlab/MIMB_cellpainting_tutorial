@@ -61,7 +61,7 @@ You can now create and activate the environment with the following commands:
 conda env create -f mimb_cellpainting.yml
 conda activate mimb_cellpainting
 ```
-## Getting started : Lunch Jupyter lab :
+## Getting started: Lunch Jupyter lab 
 Start JupyterLab to work with the notebooks.
 
 ```sh
