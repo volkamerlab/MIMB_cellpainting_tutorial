@@ -35,7 +35,7 @@ This repository contains the materials for the MIMB cell painting tutorial, incl
 
 - **README.md**: This file, provides an overview of the repository structure and contents.
 - **LICENSE**: License information 
-- **requirements.txt** : File listing Python dependencies.
+- **mimb_cellpainting.yml** : File listing Python dependencies.
 
 ## Getting Started
 
@@ -50,14 +50,30 @@ To run the Jupyter Notebooks locally on your machine, follow these steps:
 For setting up the environment install conda :
 
 1. **Install CONDA**
-To install and use Conda; miniconda installer, follow the instructions on the [official Conda installation page](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) for your operating system.
+To install and use Conda; miniconda installer, follow the instructions on the official [Conda installation page](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) for your operating system.
 
 2. **Install pip**
 To install pip follow the instructions on the [official pip installation page](https://pip.pypa.io/en/stable/installation/).
 
-2. **Setting Up the Environment**
+3. **Setting Up the Environment**
 You can now create and activate the environment with the following commands:
 
 ```sh
 conda env create -f mimb_cellpainting.yml
 conda activate mimb_cellpainting
+
+```
+2. **Lunch Jupyter lab**:
+Start JupyterLab to work with the notebooks
+Once JupyterLab is running, you can navigate to the Notebooks directory and open the relevant notebooks to start working with the tutorial.
+```sh
+jupyter-lab
+```
+or
+```sh
+jupyter-notebook
+```
+You can open and run, specific notebooks from your terminal as follows; more can be found on the official [Jupyter page](https://docs.jupyter.org/en/latest/running.html).
+```sh
+jupyter-notebook ToxCast_Tox21_ERa.ipynb
+jupyter execute ToxCast_Tox21_ERa.ipynb
