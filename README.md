@@ -54,9 +54,9 @@ For setting up the environment install conda :
 To install and use Conda; miniconda installer, follow the instructions on the official [Conda installation page](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) for your operating system.
 
 2. **Install pip**
-If you have Python version 3.4 or later, PIP is included by default.
-To check your version refers to **Setup_manual.pdf**. 
-To install pip follow the instructions on the [official pip installation page](https://pip.pypa.io/en/stable/installation/).
+If you have Python version 3.4 or later, PIP is included by default. <br>
+To check your version refers to **Setup_manual.pdf**. <br>
+To install pip follow the instructions on the [official pip installation page](https://pip.pypa.io/en/stable/installation/). <br>
 
 3. **Setting Up the Environment**
 You can now create and activate the environment with the following commands:
