@@ -9,7 +9,7 @@ This repository contains the materials for the MIMB cell painting tutorial, incl
   - `blocklist_features.txt`: Text file listing features to be blocked, downloaded [here](https://figshare.com/articles/dataset/Blacklist_Features_-_Cell_Profiler/10255811/3)
   - `chemical_annotations.csv`: CSV file containing chemical annotations, dowloaded [here](http://gigadb.org/dataset/100351).
   - `toxcast_data.csv`: The dataset used for estrogen receptor activity prediction, downloaded from [Moleculenet](https://moleculenet.org/datasets-1).
-  - `ER_activity_luc_bg1.csv`: The activity dataset obtained after processing `toxcast_data.csv`, can be generated when running `Part3-Machine_Learning.ipynb`
+  - `ER_activity_luc_bg1.csv`: This activity dataset obtained after processing `toxcast_data.csv`,is generated when running `ToxCast_Tox21_ERa.ipynb`
 
 
 ### Cell_Profiles Directory
@@ -36,6 +36,7 @@ This repository contains the materials for the MIMB cell painting tutorial, incl
 - **README.md**: This file, provides an overview of the repository structure and contents.
 - **LICENSE**: License information 
 - **mimb_cellpainting.yml** : File listing environment dependencies.
+- **Setup_manual.pdf** : The **getting started** section detailed for beginners and Windows user. 
 
 ## Getting Started
 
@@ -49,11 +50,13 @@ To run the Jupyter Notebooks locally on your machine, follow these steps:
 ## Setting Up the Environment
 For setting up the environment install conda :
 
-1. **Install CONDA**
+1. **Install MINICONDA**
 To install and use Conda; miniconda installer, follow the instructions on the official [Conda installation page](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) for your operating system.
 
 2. **Install pip**
-To install pip follow the instructions on the [official pip installation page](https://pip.pypa.io/en/stable/installation/).
+If you have Python version 3.4 or later, PIP is included by default. <br>
+To check your version refers to **Setup_manual.pdf**. <br>
+To install pip follow the instructions on the [official pip installation page](https://pip.pypa.io/en/stable/installation/). <br>
 
 3. **Setting Up the Environment**
 You can now create and activate the environment with the following commands:
@@ -77,3 +80,4 @@ jupyter-notebook ToxCast_Tox21_ERa.ipynb
 jupyter execute ToxCast_Tox21_ERa.ipynb
 ```
 Once JupyterLab is running, you can navigate to the Notebooks directory and open the relevant notebooks to start working with the tutorial.
+For more insight on Jupyter please refer to the last section of the **Setup_manual.pdf**.
